@@ -4,4 +4,9 @@
 # For more detail on these projects please visit https://www.freecodecamp.org/news/javascript-projects-for-beginners/.
 # Please give feedback so that i can improve my coding as well as documenting skill.
 
-# Enjoy building and Thank you. 
+# Enjoy building and Thank you.
+
+Vanilla JS Projects:
+1. Create a color Flipper
+2. Create a Counter
+
