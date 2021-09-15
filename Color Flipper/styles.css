@@ -1,0 +1,7 @@
+.container {
+    display: flex;
+    background-color: black;
+}
+.container>h2 {
+    color: white;
+}
