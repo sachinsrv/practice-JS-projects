@@ -46,7 +46,7 @@ main {
   margin-top: 2rem;
 }
 
-.value {
+#value {
   color: #2b2d3d;
   font-size: 6rem;
   font-weight: bold;
