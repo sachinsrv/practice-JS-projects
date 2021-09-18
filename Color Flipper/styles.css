@@ -1,7 +1,86 @@
-.container {
-    display: flex;
-    background-color: black;
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.container>h2 {
-    color: white;
+
+body {
+  display: block;
+  box-sizing: border-box;
+}
+nav {
+  background: #fff;
+  display: grid;
+  align-items: center;
+  height: 3rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.nav-center {
+  width: 90vw;
+  max-width: 620px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-center h4 {
+  color: hsl(205, 78%, 60%);
+  letter-spacing: 0.25rem;
+}
+
+.nav-links {
+  display: flex;
+}
+
+nav a {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 1rem;
+  color: hsla(205, 86%, 17%, 1);
+  letter-spacing: 0.25rem;
+  text-decoration: none;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 1rem;
+}
+
+main {
+  min-height: calc(100vh - 3rem);
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  text-align: center;
+}
+.container > h2 {
+  background: black;
+  color: white;
+  padding: 1rem;
+  line-height: 1rem;
+  margin-bottom: 2.5rem;
+  border-radius: 5px;
+}
+
+.btn {
+  border: 2px solid black;
+  font-weight: 700;
+  background: transparent;
+  letter-spacing: 00.25rem;
+  text-transform: uppercase;
+  padding: 0.75rem 1.25rem;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
 }
